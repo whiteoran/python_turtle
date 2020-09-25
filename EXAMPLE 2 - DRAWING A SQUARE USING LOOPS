@@ -1,0 +1,12 @@
+#EXAMPLE 2 - DRAWING A SQUARE USING LOOPS
+#Step 1: import turtle
+import turtle
+
+#Step 2: Create a turtle.  We will call it "t"
+t = turtle.Turtle()
+
+#Step 3: Draw the thing
+for i in range(4):
+  t.forward(50) #length
+  t.right(90) #angle
+  
