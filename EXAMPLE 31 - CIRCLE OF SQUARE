@@ -1,0 +1,19 @@
+EXAMPLE 3 - CIRCLE OF SQUARE
+#Step 1: import turtle
+
+import turtle
+
+#Step 2: Create a turtle.  We will call it "t"
+t = turtle.Turtle()
+
+#Step 3: Draw the thing
+def square(length , angle):
+  for i in range(4):
+    t.forward(100) #length
+    t.right(90) #angle
+
+for i in range(200):
+  square(100,90)
+  t.right(5)
+#Step 4: Run the turtle
+t.done()
