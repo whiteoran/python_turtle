@@ -1,0 +1,28 @@
+EXAMPLE 1 - DRAW A SQUARE
+
+#CODE
+
+#Step 1: import turtle
+import turtle
+
+#Step 2: Create a turtle.  We will call it "t"
+t = turtle.Turtle()
+
+#Step 3: Draw the thing
+t.forward(50) #length
+t.right(90) #angle
+
+t.forward(50)
+t.right(90) 
+
+t.forward(50)
+t.right(90) 
+
+t.forward(50)
+t.right(90)
+
+#Step 4: Run the turtle
+t.done()
+
+
+
